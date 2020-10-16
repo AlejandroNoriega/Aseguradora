@@ -1,0 +1,38 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# Aseguradora
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Visualizar los datos en forma de grafica de una base de datos de una aseguradora
+## Installation
+
+You can install the released version of Aseguradora from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("Aseguradora")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(Aseguradora)
+## basic example code
+tablas(my_data)
+```
